@@ -1,0 +1,17 @@
+{
+  "targets": [
+    {
+      "disable": false,
+      "origin": false,
+      "key": "emoji-parse",
+      "filename": "src/index.js",
+      "distPath": "./dist",
+      "publicPath": "//unpkg.com/emoji-parse@0.0.1/dist/",
+      "devPublicPath": "http://127.0.0.1:8100/dist/",
+      "isLibrary": true
+    }
+  ],
+  "useBabelrc": true,
+  "devPublicPath": "./",
+  "modulesNeedBabel": []
+}
