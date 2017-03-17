@@ -10,7 +10,7 @@ Instead parse to create react element, this repo return an ast-like tree for mor
 * commonjs: `yarn add emoji-parse`
 
 ```javascript
-import { emojifyTextToSingleEmoji, emojifyText} from 'react'
+import { emojifyTextToSingleEmoji, emojifyText} from 'emoji-parse'
 
 const result = emojifyText(':smile:你好，今天天气不错:sun_with_face:')
 console.log(result)
