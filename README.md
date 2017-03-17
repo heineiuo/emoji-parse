@@ -7,6 +7,8 @@ Instead parse to create react element, this repo return an ast-like tree for mor
 
 ## usage
 
+* commonjs: `yarn add emoji-parse`
+
 ```javascript
 import { emojifyTextToSingleEmoji, emojifyText} from 'react'
 
@@ -16,8 +18,14 @@ console.log(result)
 //  { type: 'text', value: '你好，今天天气不错' },
 //  { type: 'emoji', value: 'sun_with_face' } ]
 
-
 ```
+
+* amd(browser):
+
+```html
+<script src="//unpkg.com/emoji-parse"/>
+```
+
 
 ## options
 

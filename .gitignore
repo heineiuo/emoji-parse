@@ -3,7 +3,6 @@ node_modules
 *.log*
 ignore
 data/*
-dist/*
 build/*
 lib/*
 !build/README.md
