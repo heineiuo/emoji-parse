@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+<script src=//unpkg.com/babel-polyfill@6.23.0/dist/polyfill.min.js></script>
+<script src=//unpkg.com/systemjs@0.20.9/dist/system.src.js></script>
+<div id="app"></div>
+<script>
+
+  System.config({
+    baseUrl: '/', meta: {'*.js': {format: 'amd'}}, map: {
+      react: '//unpkg.com/react@15.4.2/dist/react.js',
+      'react-dom': '//unpkg.com/react-dom@15.4.2/dist/react-dom.js',
+      redux: '//unpkg.com/redux@3.6.0/dist/redux.js',
+      'react-router': '//unpkg.com/react-router@4.0.0/umd/react-router.js',
+      'react-router-dom': '//unpkg.com/react-router-dom@4.0.0/umd/react-router-dom.js',
+      'react-redux': '//unpkg.com/react-redux@5.0.2/dist/react-redux.js',
+//      'emoji-parse-example': 'http://127.0.0.1:8101/dist/emoji-parse-example.js'
+      'emoji-parse-example': './dist/emoji-parse-example.js'
+    }
+  });
+
+  System.import('emoji-parse-example');
+
+</script>
+
+</body>
+</html>

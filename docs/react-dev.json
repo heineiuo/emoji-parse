@@ -1,0 +1,28 @@
+{
+  "targets": [
+    {
+      "disable": false,
+      "origin": false,
+      "key": "emoji-parse-example",
+      "filename": "index.js",
+      "distPath": "./dist",
+      "devPublicPath": "http://127.0.0.1:8101/dist/",
+      "isLibrary": true,
+      "externals": {
+        "react": {
+          "root": "React",
+          "amd": "react",
+          "commonjs": "react"
+        },
+        "react-dom": {
+          "root": "ReactDOM",
+          "amd": "react-dom",
+          "commonjs": "react-dom"
+        }
+      }
+    }
+  ],
+  "useBabelrc": true,
+  "devPublicPath": "./",
+  "modulesNeedBabel": []
+}
