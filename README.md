@@ -1,12 +1,15 @@
 # emoji-parse
 😁Parse emoji plain text to syntax tree
 
-![emoji-parse](https://github.com/heineiuo/emoji-parse/raw/master/docs/screenshot.png =364x380)
+<img style="width:364px;height:380px;margin: '0 auto'" src="https://github.com/heineiuo/emoji-parse/raw/master/docs/screenshot.png" alt="emoij-parse screenshot"/>
 
 ---
 
 *Important*: Most of code come from [banyan/react-emoji](https://github.com/banyan/react-emoji).
 Instead parse to create react element, this repo return an ast-like tree for more common usage.
+
+See [Demo](https://heineiuo.github.io/emoji-parse/).
+
 
 ## usage
 
