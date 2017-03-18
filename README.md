@@ -1,5 +1,8 @@
 # emoji-parse
 😁Parse emoji plain text to syntax tree
+
+![emoji-parse](https://github.com/heineiuo/emoji-parse/raw/master/docs/screenshot.png)
+
 ---
 
 *Important*: Most of code come from [banyan/react-emoji](https://github.com/banyan/react-emoji).
