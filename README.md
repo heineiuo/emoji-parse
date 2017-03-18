@@ -1,7 +1,6 @@
 # emoji-parse
 😁Parse emoji plain text to syntax tree
 
-<img style="width:364px;height:380px;margin: '0 auto'" src="https://github.com/heineiuo/emoji-parse/raw/master/docs/screenshot.png" alt="emoij-parse screenshot"/>
 
 ---
 
@@ -10,6 +9,7 @@ Instead parse to create react element, this repo return an ast-like tree for mor
 
 See [Demo](https://heineiuo.github.io/emoji-parse/).
 
+![emoji-parse](https://github.com/heineiuo/emoji-parse/raw/master/docs/screenshot.png)
 
 ## usage
 
