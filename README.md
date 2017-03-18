@@ -1,7 +1,7 @@
 # emoji-parse
 😁Parse emoji plain text to syntax tree
 
-![emoji-parse](https://github.com/heineiuo/emoji-parse/raw/master/docs/screenshot.png)
+![emoji-parse](https://github.com/heineiuo/emoji-parse/raw/master/docs/screenshot.png =364x380)
 
 ---
 
